@@ -2,85 +2,95 @@ import imaplib
 import email
 from email.header import decode_header
 import os
+import time
+import sys
+import win32api
+import win32print
 
-# Datos de conexión
-email_user = "consorciobanco@yahoo.com"  # Cambia esto por tu correo de Yahoo
-email_pass = "oocbouotgtlqdior"  # Usa una contraseña de aplicación si tienes 2FA activado
+# Configuración del correo
+IMAP_SERVER = "imap.gmail.com"
+EMAIL_USER = "luispablosamano01@gmail.com"
+EMAIL_PASS = "moci gaoa jkit pyhp"
 
-# Carpeta donde se guardarán los archivos adjuntos
-download_folder = r"C:\Users\Usuario\Desktop\Facturas para imprimir"
+# Carpeta donde se guardarán los PDFs
+DOWNLOAD_FOLDER = "FACTURAS DESCARGADAS"
+os.makedirs(DOWNLOAD_FOLDER, exist_ok=True)
 
-# Asegurar que la carpeta de destino exista
-os.makedirs(download_folder, exist_ok=True)
-
-# Conectar al servidor IMAP de Yahoo
-mail = imaplib.IMAP4_SSL("imap.mail.yahoo.com")
 
 try:
-    # Iniciar sesión
-    mail.login(email_user, email_pass)
+    # Conectar al servidor IMAP
+    mail = imaplib.IMAP4_SSL(IMAP_SERVER)
+    mail.login(EMAIL_USER, EMAIL_PASS)
     print("✅ Inicio de sesión exitoso.")
 
-    # Seleccionar el buzón de entrada
+    # Seleccionar la bandeja de entrada
     mail.select("inbox")
 
-    # Buscar correos no leídos (UNSEEN)
+    # Buscar correos no leídos
     status, messages = mail.search(None, 'UNSEEN')
 
     if status != "OK" or not messages[0]:
-        print("❌ No se encontraron correos no leídos.")
+        print("❌ No hay correos no leídos.")
     else:
-        # Obtener la lista de identificadores de los correos y ordenarlos de más antiguo a más reciente
+        # Lista de IDs de correos
         message_numbers = messages[0].split()
-        
         print(f"📩 Correos no leídos encontrados: {len(message_numbers)}")
 
-        # Procesar en orden cronológico (del más antiguo al más reciente)
+        # Procesar cada correo
         for num in message_numbers:
-            status, msg_data = mail.fetch(num, "(RFC822)")  # Obtener el correo
+            status, msg_data = mail.fetch(num, "(RFC822)")
 
             for response_part in msg_data:
                 if isinstance(response_part, tuple):
-                    msg = email.message_from_bytes(response_part[1])  # Crear objeto de correo
+                    msg = email.message_from_bytes(response_part[1])
 
-                    # Decodificar el asunto del correo
+                    # Decodificar el asunto
                     subject, encoding = decode_header(msg["Subject"])[0]
-                    if isinstance(subject, bytes):
-                        subject = subject.decode(encoding or "utf-8")
+                    if isinstance(subject, bytes) and encoding:
+                        subject = subject.decode(encoding, errors="ignore")
 
                     print(f"\n📨 Procesando correo: {subject}")
                     print(f"✉️  De: {msg.get('From')}")
 
-                    # Si el correo tiene múltiples partes (texto + adjuntos)
-                    if msg.is_multipart():
-                        for part in msg.walk():
-                            content_type = part.get_content_type()
-                            filename = part.get_filename()
+                    # Variable para almacenar la ruta del PDF descargado
+                    pdf_path = None
 
-                            # Si hay un archivo adjunto
+                    # Recorrer partes del correo en busca de adjuntos
+                    for part in msg.walk():
+                        if part.get_content_disposition() == "attachment":
+                            filename = part.get_filename()
                             if filename:
                                 filename, encoding = decode_header(filename)[0]
-                                if isinstance(filename, bytes):
-                                    filename = filename.decode(encoding or "utf-8")
+                                if isinstance(filename, bytes) and encoding:
+                                    filename = filename.decode(encoding, errors="ignore")
 
-                                # Asegurar que sea un archivo PDF
+                                # Verificar que sea un PDF
                                 if filename.lower().endswith(".pdf"):
-                                    filepath = os.path.join(download_folder, filename)
+                                    filepath = os.path.join(DOWNLOAD_FOLDER, filename)
 
-                                    # Guardar el archivo adjunto
-                                    with open(filepath, "wb") as f:
-                                        f.write(part.get_payload(decode=True))
-                                    print(f"✅ Archivo guardado: {filepath}")
+                                    try:
+                                        # Guardar el archivo
+                                        with open(filepath, "wb") as f:
+                                            f.write(part.get_payload(decode=True))
+                                        print(f"✅ PDF descargado: {filepath}")
+
+
+                                    except Exception as e:
+                                        print(f"❌ Error al guardar {filename}: {e}")
+
                                 else:
                                     print(f"❌ {filename} no es un PDF. No se descargará.")
-                            else:
-                                print("No se encontró un archivo adjunto válido en este correo.")
 
     print("\n🔚 Proceso finalizado.")
 
 except imaplib.IMAP4.error as e:
-    print(f"❌ Error en la conexión: {e}")
-
+    print(f"❌ Error en la conexión IMAP: {e}")
+except Exception as e:
+    print(f"❌ Ocurrió un error inesperado: {e}")
 finally:
-    # Cerrar la conexión con el servidor
-    mail.logout()
+    try:
+        mail.logout()
+    except:
+        print("⚠ No se pudo cerrar la sesión correctamente.")
+
+        

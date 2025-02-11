@@ -1,3 +1,6 @@
-consorciobanco@yahoo.com
-
-contraseña para aplicaciones:pdvgcuopouwgdctt
+#consorciobanco@yahoo.com
+#contraseña para aplicaciones:pdvgcuopouwgdctt
+#email_user = "consorciobanco@yahoo.com" 
+#email_pass = "oocbouotgtlqdior" 
+#usuario = "naomi.roque2005@gmail.com"
+#contrasena = "hkht apvp hovz iggx"  

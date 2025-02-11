@@ -1,49 +1,20 @@
-import imaplib
-import email
-from email.header import decode_header
+import win32print
+import win32api
+import os
 
-# Datos de conexión
-email_user = "consorciobanco@yahoo.com"  # Cambia esto por tu correo de Yahoo
-email_pass = "oocbouotgtlqdior"  # Usa una contraseña de aplicación si tienes 2FA activado
+# Ruta del archivo PDF
+pdf_path = os.path.abspath("C:\\Users\\luisp\\OneDrive\\Escritorio\\Trabajos de la uni\\240100-SAAL.pdf")
 
+# Nombre de la impresora
+printer_name = "Brother DCP-T720DW Printer"
 
-# Conectar al servidor IMAP de Yahoo
-mail = imaplib.IMAP4_SSL("imap.mail.yahoo.com")
+# Configurar la impresora
+printer = win32print.OpenPrinter(printer_name)
+printer_info = win32print.GetPrinter(printer, 2)
 
+# Enviar a imprimir
 try:
-    mail.login(email_user, email_pass)
-    print("✅ Inicio de sesión exitoso.")
-
-    # Seleccionar la bandeja de entrada
-    mail.select("inbox")
-
-    # Buscar correos no leídos
-    status, messages = mail.search(None, 'UNSEEN')
-
-    if status != "OK" or not messages[0]:
-        print("❌ No se encontraron correos no leídos.")
-    else:
-        message_numbers = messages[0].split()
-        print(f"📩 Correos no leídos encontrados: {len(message_numbers)}")
-
-        for num in message_numbers:
-            status, msg_data = mail.fetch(num, "(RFC822)")
-            for response_part in msg_data:
-                if isinstance(response_part, tuple):
-                    msg = email.message_from_bytes(response_part[1])
-
-                    # Decodificar el asunto del correo
-                    subject, encoding = decode_header(msg["Subject"])[0]
-                    if isinstance(subject, bytes):
-                        subject = subject.decode(encoding or "utf-8")
-
-                    print(f"\n📨 Correo: {subject}")
-                    print(f"✉️  De: {msg.get('From')}")
-    
-    print("\n🔚 Proceso finalizado.")
-
-except imaplib.IMAP4.error as e:
-    print(f"❌ Error en la conexión: {e}")
-
-finally:
-    mail.logout()
+    win32api.ShellExecute(0, "print", pdf_path, f'/d:"{printer_name}"', ".", 0)
+    print(f"✅ Archivo enviado a la impresora: {printer_name}")
+except Exception as e:
+    print(f"❌ Error al imprimir: {e}")

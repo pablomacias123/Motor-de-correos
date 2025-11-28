@@ -2,7 +2,7 @@ import re
 from pathlib import Path
 from datetime import datetime
 import pdfplumber
-from PyPDF2 import PdfReader
+from pypdf import PdfReader
 
 # ====== RUTA FIJA ======
 FACTURAS_DIR = Path(r"C:\Trabajo\Motor-de-correos\FACTURAS DESCARGADAS")
@@ -15,8 +15,8 @@ MONTHS_ES = {
 
 # Patrones con grupos claros para armar datetime sin ambigüedad
 RX_ISO = re.compile(r"\b(20\d{2})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])[T ]([01]\d|2[0-3]):([0-5]\d)(?::([0-5]\d))?\b")
-RX_YMD = re.compile(r"\b(20\d{2})[-/\.](0[1-9]|1[0-2])[-/\.](0[1-9]|[12]\d|3[01])\b")          # yyyy-mm-dd
-RX_DMY = re.compile(r"\b(0[1-9]|[12]\d|3[01])[-/\.](0[1-9]|1[0-2])[-/\.](20\d{2})\b")          # dd-mm-yyyy
+RX_YMD = re.compile(r"\b(20\d{2})[-/\.](0[1-9]|1[0-2])[-/\.](0[1-9]|[12]\d|3[01])\b")
+RX_DMY = re.compile(r"\b(0[1-9]|[12]\d|3[01])[-/\.](0[1-9]|1[0-2])[-/\.](20\d{2})\b")
 RX_ES  = re.compile(
     r"\b(0?[1-9]|[12]\d|3[01])\s+de\s+(enero|febrero|marzo|abril|mayo|junio|"
     r"julio|agosto|septiembre|octubre|noviembre|diciembre)\s+del\s+(20\d{2})"
@@ -37,22 +37,17 @@ def extract_text_pdf(pdf_path: Path, max_pages: int = 2) -> str:
             return ""
 
 def parse_strict_dates(text: str) -> list[datetime]:
-    """Devuelve datetimes construidos de forma NO ambigua, por patrón."""
     dts: list[datetime] = []
 
-    # 1) ISO/CFDI: yyyy-mm-ddThh:mm:ss
     for y, m, d, hh, mm, ss in RX_ISO.findall(text):
         dts.append(datetime(int(y), int(m), int(d), int(hh), int(mm), int(ss) if ss else 0))
 
-    # 2) yyyy-mm-dd
     for y, m, d in RX_YMD.findall(text):
         dts.append(datetime(int(y), int(m), int(d)))
 
-    # 3) dd-mm-yyyy
     for d, m, y in RX_DMY.findall(text):
         dts.append(datetime(int(y), int(m), int(d)))
 
-    # 4) “dd de mes del yyyy [hh:mm:ss]”
     for d, mes, y, hh, mm, ss in RX_ES.findall(text):
         day = int(d)
         month = MONTHS_ES[mes.lower()]
@@ -67,7 +62,6 @@ def pick_invoice_date(text: str) -> datetime | None:
     dts = parse_strict_dates(text)
     if not dts:
         return None
-    # En facturas mexicanas suele convenir la MÁS RECIENTE (timbre CFDI)
     return max(dts)
 
 _illegal = re.compile(r'[<>:"/\\|?*\x00-\x1F]')
@@ -75,7 +69,6 @@ _illegal = re.compile(r'[<>:"/\\|?*\x00-\x1F]')
 def safe_filename(name: str) -> str:
     return _illegal.sub("_", name).strip()
 
-# Elimina prefijo existente tipo "YYYY-MM-DD - " o "YYYY_DD_MM - "
 RX_PREFIX = re.compile(r"^\d{4}[-_\.]\d{2}[-_\.]\d{2}\s*-\s*", re.ASCII)
 
 def strip_existing_date_prefix(stem: str) -> str:
@@ -102,7 +95,7 @@ def main():
 
         new_name = build_new_name(pdf, dt)
         target = pdf.with_name(new_name)
-        # Evitar colisiones
+
         i = 1
         while target.exists():
             target = target.with_stem(target.stem + f" ({i})")

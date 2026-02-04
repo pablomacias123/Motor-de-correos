@@ -8,6 +8,8 @@ from datetime import datetime
 import socket
 import time, re, gc
 from imaplib import IMAP4
+from hash_manager import load_existing_hashes, append_hash, calculate_hash
+
 
 # ==========================
 # Tiempos y robustez
@@ -27,11 +29,11 @@ sys.stdout.reconfigure(encoding='utf-8')
 # ==========================
 IMAP_SERVER = "imap.mail.yahoo.com"
 EMAIL_USER  = "consorciobanco@yahoo.com"
-EMAIL_PASS  = "xddllsolnhhouiat"   # App password Yahoo (16 chars, sin espacios)
+EMAIL_PASS  = "xddllsolnhhouiat"   
 
 BASE_DIR = os.getcwd()
-DOWNLOAD_FOLDER = os.path.join(BASE_DIR, "FACTURAS DESCARGADAS")  # SOLO PDFs
-META_FOLDER     = os.path.join(BASE_DIR, "FACTURAS_META")         # hashes/logs
+DOWNLOAD_FOLDER = os.path.join(BASE_DIR, "FACTURAS DESCARGADAS")  
+META_FOLDER     = os.path.join(BASE_DIR, "FACTURAS_META")         
 os.makedirs(DOWNLOAD_FOLDER, exist_ok=True)
 os.makedirs(META_FOLDER, exist_ok=True)
 
@@ -66,14 +68,12 @@ def sha256_bytes(data: bytes) -> str:
     h = hashlib.sha256(); h.update(data); return h.hexdigest()
 
 def load_existing_hashes() -> set:
+    """
+    Carga todos los hashes conocidos desde HASHES_DB.
+    Ya no re-hashea PDFs viejos para evitar que el arranque se vuelva lento.
+    """
     hashes = set()
-    for fname in os.listdir(DOWNLOAD_FOLDER):
-        if fname.lower().endswith(".pdf"):
-            try:
-                with open(os.path.join(DOWNLOAD_FOLDER, fname), "rb") as f:
-                    hashes.add(sha256_bytes(f.read()))
-            except Exception as e:
-                vprint(f"⚠️  No pude hashear {fname}: {e}")
+
     if os.path.exists(HASHES_DB):
         try:
             with open(HASHES_DB, "r", encoding="utf-8") as f:
@@ -83,7 +83,9 @@ def load_existing_hashes() -> set:
                         hashes.add(line)
         except Exception as e:
             vprint(f"⚠️  No pude leer _hashes.db: {e}")
+
     return hashes
+
 
 def append_hash(h: str):
     try:

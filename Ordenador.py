@@ -3,9 +3,14 @@ from pathlib import Path
 from datetime import datetime
 import pdfplumber
 from pypdf import PdfReader
+from tqdm import tqdm   # ← Barra de progreso
 
-# ====== RUTA FIJA ======
-FACTURAS_DIR = Path(r"C:\Trabajo\Motor-de-correos\FACTURAS DESCARGADAS")
+# ===========================================================
+#              RUTA BASE DINÁMICA (PORTABLE)
+# ===========================================================
+
+BASE_DIR = Path(__file__).resolve().parent
+FACTURAS_DIR = BASE_DIR / "FACTURAS DESCARGADAS"
 
 # Meses en español
 MONTHS_ES = {
@@ -79,18 +84,26 @@ def build_new_name(original: Path, dt: datetime) -> str:
     clean_stem = strip_existing_date_prefix(original.stem)
     return f"{prefix} - {safe_filename(clean_stem)}{original.suffix.lower()}"
 
+# ===========================================================
+#                     MAIN CON BARRA DE PROGRESO
+# ===========================================================
+
 def main():
     pdfs = list(FACTURAS_DIR.glob("*.pdf"))
     if not pdfs:
         print("⚠️ No se encontraron PDFs en la carpeta.")
         return
 
-    print(f"📂 Carpeta: {FACTURAS_DIR}")
-    for pdf in pdfs:
+    print(f"📂 Carpeta: {FACTURAS_DIR}\n")
+
+    # === BARRA DE CARGA ELEGANTE ===
+    for pdf in tqdm(pdfs, desc="Ordenando facturas", unit="pdf"):
         text = extract_text_pdf(pdf)
         dt = pick_invoice_date(text) if text else None
+        
         if not dt:
-            print(f"❓ {pdf.name} -> No se detectó fecha")
+            # Comentado para no ensuciar la barra
+            # print(f"❓ {pdf.name} -> No se detectó fecha")
             continue
 
         new_name = build_new_name(pdf, dt)
@@ -102,7 +115,8 @@ def main():
             i += 1
 
         pdf.rename(target)
-        print(f"✅ {pdf.name} -> {target.name}")
+        # print(f"✅ {pdf.name} -> {target.name}")  <-- Ya no imprimimos línea por línea
+
 
 if __name__ == "__main__":
     main()

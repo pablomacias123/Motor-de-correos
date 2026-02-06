@@ -1,0 +1,140 @@
+============================================
+Motor iniciado
+Hora: 2026-02-05 18:25:23
+============================================
+🔎 Hashes precargados: 7980
+🔌 Conectando a IMAP…
+✅ Login IMAP OK.
+📂 SELECT INBOX -> OK
+🏷️  Carpetas garantizadas: DUPLICADOS, REVISA_MANUAL
+🔍 Buscando NO LEÍDOS en INBOX (Yahoo)…
+   ↪ SEARCH UNSEEN -> OK
+🔍 SEARCH (robusto) -> OK
+📩 Mensajes a procesar (INBOX, UNREAD): 92
+
+🧱 Lote 1-92 de 92
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9909
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IWAPJ374958
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Wed, 4 Feb 2026 14:55:29 +0000 (UTC)
+🆔 Message-ID: <a51232bb-d379-4045-9d9f-90f6531e4075@phont301ndcus3.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260204_075228.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260204_075228.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260204_075228.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9910
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IBAHB233259
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Wed, 4 Feb 2026 14:56:12 +0000 (UTC)
+🆔 Message-ID: <0fb56647-d1d3-4f8b-984d-900ef1da63d0@phont300ndcus3.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260204_075311.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260204_075311.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260204_075311.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9911
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IBADF73377
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Wed, 4 Feb 2026 14:57:42 +0000 (UTC)
+🆔 Message-ID: <c2384a75-c2e9-4ebf-a96c-b2ec6b6ead06@phont300ndcus1.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260204_075441.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260204_075441.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260204_075441.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9912
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IWAPJ374960
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Wed, 4 Feb 2026 14:58:22 +0000 (UTC)
+🆔 Message-ID: <63aab490-aeb5-445d-979c-27b94eb9c9af@phont301edcus2.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260204_075521.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260204_075521.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260204_075521.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9913
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IBAHB233260
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Wed, 4 Feb 2026 14:59:12 +0000 (UTC)
+🆔 Message-ID: <656f40c6-a50f-4e71-a4a1-58b3deb2b34c@phont300cdcus3.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260204_075608.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260204_075608.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260204_075608.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9914
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IBAHB233261
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Wed, 4 Feb 2026 14:59:51 +0000 (UTC)
+🆔 Message-ID: <c9e6229f-3278-46c8-a555-900b26927d85@phont301cdcus8.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260204_075650.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260204_075650.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260204_075650.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9915
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IBAHB233264
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Wed, 4 Feb 2026 15:05:17 +0000 (UTC)
+🆔 Message-ID: <2e0998ea-a43f-46ea-88d4-3cc19f9f8aff@phont301ndcus1.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260204_080216.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260204_080216.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260204_080216.pdf

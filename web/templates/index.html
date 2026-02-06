@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Motor de Correos – Panel</title>
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+
+  <header class="topbar">
+    <div>
+      <h1>Motor de Correos</h1>
+      <p>Panel de control</p>
+    </div>
+
+    <div class="status" id="statusBadge">Listo</div>
+  </header>
+
+
+  <main class="grid">
+
+    <section class="card">
+      <h2>Acciones</h2>
+
+      <div class="btn-row">
+        <button id="btnRun" class="btn primary">▶ Iniciar proceso</button>
+        <a id="btnDownload" class="btn" href="#">⬇ Descargar PDF final</a>
+        <button id="stopBtn" class="btn danger" disabled>⛔ Parar proceso</button>
+
+      </div>
+
+      <div class="btn-row">
+        <button class="btn" onclick="openFolder('final')">📂 Abrir Final</button>
+        <button class="btn" onclick="openFolder('errors')">📂 Abrir Errors</button>
+        <button class="btn" onclick="openFolder('descargadas')">📂 Abrir Descargadas</button>
+      </div>
+
+      <div class="info">
+        <div><b>Última ejecución:</b> <span id="lastRun">—</span></div>
+        <div><b>Último PDF:</b> <span id="lastPdf">—</span></div>
+        <div><b>Código de salida:</b> <span id="exitCode">—</span></div>
+      </div>
+    </section>
+
+
+    <section class="card">
+      <h2>Logs</h2>
+      <pre id="logs" class="logs">Cargando...</pre>
+    </section>
+
+  </main>
+
+
+  <footer class="footer">
+    <span>Hecho con Flask · UI Minimalista</span>
+  </footer>
+
+
+<script src="{{ url_for('static', filename='js/main.js') }}"></script><
+</body>
+</html>

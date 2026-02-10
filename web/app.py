@@ -3,6 +3,8 @@ import glob
 import threading
 import subprocess
 from datetime import datetime
+import os
+import signal
 
 from flask import Flask, render_template, jsonify, send_file, request
 
@@ -173,6 +175,27 @@ def api_logs():
 
     with open(LOG_FILE, "r", encoding="utf-8", errors="replace") as f:
         return jsonify({"logs": f.read()})
+    
+@app.route("/api/shutdown", methods=["POST"])
+def api_shutdown():
+    try:
+        # Primero detener el motor si está corriendo
+        global process
+        if STATE["running"] and process is not None:
+            process.terminate()
+            try:
+                process.wait(timeout=2)
+            except:
+                process.kill()
+
+        write_log("\n🛑 Servidor Flask apagado desde el panel...")
+
+        # Apagar Flask
+        os.kill(os.getpid(), signal.SIGINT)
+
+        return jsonify({"ok": True, "message": "Servidor apagado"})
+    except Exception as e:
+        return jsonify({"ok": False, "message": str(e)}), 500
 
 
 @app.route("/api/download")
@@ -194,6 +217,8 @@ def api_open_folder():
         "errors": FACTURAS_ERRORS,
         "descargadas": FACTURAS_DESCARGADAS,
     }
+
+    
 
     folder = mapping.get(which)
     if not folder:

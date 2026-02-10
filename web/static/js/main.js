@@ -7,6 +7,19 @@ const lastRun = document.getElementById("lastRun");
 const lastPdf = document.getElementById("lastPdf");
 const exitCode = document.getElementById("exitCode");
 const stopBtn = document.getElementById("stopBtn");
+const shutdownBtn = document.getElementById("shutdownBtn");
+
+shutdownBtn.addEventListener("click", async () => {
+  const confirmStop = confirm("¿Seguro que quieres apagar TODO el panel?");
+  if (!confirmStop) return;
+
+  try {
+    await fetch("/api/shutdown", { method: "POST" });
+    alert("Panel apagado. Ya puedes cerrar el navegador.");
+  } catch (err) {
+    alert("Error apagando: " + err);
+  }
+});
 
 stopBtn.addEventListener("click", async () => {
   const confirmStop = confirm("¿Seguro que quieres detener el proceso?");

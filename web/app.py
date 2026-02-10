@@ -131,6 +131,16 @@ def index():
 def api_status():
     return jsonify(STATE)
 
+@app.route("/api/run", methods=["POST"])
+def api_run():
+    if STATE["running"]:
+        return jsonify({"ok": False, "message": "Ya hay un proceso corriendo"}), 409
+
+    t = threading.Thread(target=run_motor, daemon=True)
+    t.start()
+
+    return jsonify({"ok": True, "message": "Motor iniciado"})
+
 
 @app.route("/api/stop", methods=["POST"])
 def api_stop():

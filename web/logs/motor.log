@@ -272,3 +272,1331 @@ Hora: 2026-02-09 20:14:33
 ➡️  Leyendo mensaje ID 9835
    FETCH HEADERS -> OK
 📨 Asunto: Factura Electrónica. NWM9709244W4 - ICACU1233319
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Wed, 4 Feb 2026 17:56:05 +0000 (UTC)
+🆔 Message-ID: <5d11ef56-933c-4e08-885f-fac0a04d9c18@phont301ndcus2.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260204_105304.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260204_105304.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260204_105304.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9836
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - ICACU1233325
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Wed, 4 Feb 2026 17:58:59 +0000 (UTC)
+🆔 Message-ID: <9aa526a3-b3fe-4f01-bc88-685dc997cfbc@phont301edcus2.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260204_105558.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260204_105558.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260204_105558.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9837
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - ICACU1233328
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Wed, 4 Feb 2026 18:00:21 +0000 (UTC)
+🆔 Message-ID: <99804871-ff07-426a-8eaf-a784bd3bb87c@phont301edcus3.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260204_105720.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260204_105720.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260204_105720.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9838
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IBADF73417
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 14:15:48 +0000 (UTC)
+🆔 Message-ID: <61474a3e-2237-4546-a3d2-e4b6b092e12e@phont300ndcus1.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_071247.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_071247.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_071247.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9839
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IBADF73418
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 14:16:55 +0000 (UTC)
+🆔 Message-ID: <dc042743-6cb8-4c0e-add7-601124a64998@phont300ndcus4.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_071354.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_071354.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_071354.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9840
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IBADF73419
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 14:17:38 +0000 (UTC)
+🆔 Message-ID: <bc140b59-6ddc-431d-894c-dca912c3457d@phont300edcus1.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_071437.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_071437.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_071437.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9841
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IWAPJ375018
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 14:19:51 +0000 (UTC)
+🆔 Message-ID: <ee5863d0-9067-4b1d-98aa-7113555b10c6@phont300edcus2.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_071650.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_071650.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_071650.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9842
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IBADF73420
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 14:21:07 +0000 (UTC)
+🆔 Message-ID: <ef0c96fd-7ed3-4606-959d-0fdcc282cce5@phont301edcus2.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_071806.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_071806.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_071806.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9843
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IBADF73421
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 14:22:21 +0000 (UTC)
+🆔 Message-ID: <d29d7a4b-c95b-4971-bf08-95999a9938b9@phont300edcus1.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_071920.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_071920.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_071920.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9844
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IBADF73422
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 14:23:03 +0000 (UTC)
+🆔 Message-ID: <6bbe0fb2-a14a-477a-9882-2241be973d5c@phont301edcus1.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_072002.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_072002.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_072002.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9845
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IWAPJ375019
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 14:24:40 +0000 (UTC)
+🆔 Message-ID: <63aec73e-80e9-4610-8cd8-d3e98f8b3d2d@phont301cdcus2.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_072139.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_072139.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_072139.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9846
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IWAPJ375021
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 14:26:07 +0000 (UTC)
+🆔 Message-ID: <67f8ab25-b9e7-456f-b551-d40c8902b44f@phont300edcus1.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_072306.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_072306.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_072306.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9847
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IWAPJ375022
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 14:26:46 +0000 (UTC)
+🆔 Message-ID: <ce9a6cda-ab00-4cf4-9362-20474cde2a95@phont300edcus2.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_072345.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_072345.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_072345.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9848
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IWAPJ375023
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 14:29:16 +0000 (UTC)
+🆔 Message-ID: <d7dbb280-542f-4a7c-a89f-6acefd4d9454@phont301edcus2.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_072615.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_072615.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_072615.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9849
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IBADF73423
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 14:32:04 +0000 (UTC)
+🆔 Message-ID: <5214a980-7f07-4c3e-aabe-08c81fab0bb9@phont301edcus1.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_072903.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_072903.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_072903.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9850
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IWAPJ375026
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 14:32:47 +0000 (UTC)
+🆔 Message-ID: <0ac470c2-5663-4a68-bd03-8b80d8885a75@phont300edcus1.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_072946.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_072946.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_072946.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9851
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IBADF73426
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 14:47:31 +0000 (UTC)
+🆔 Message-ID: <03867577-97ba-46d7-87ab-0e9473d064eb@phont300cdcus5.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_074430.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_074430.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_074430.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9852
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IWAPJ375035
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 14:48:23 +0000 (UTC)
+🆔 Message-ID: <aacac3a7-c40e-42d3-b766-e4a579e1c6d6@phont301cdcus3.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_074522.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_074522.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_074522.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9853
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IWAPJ375043
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 15:02:59 +0000 (UTC)
+🆔 Message-ID: <420a55d2-8bb3-497b-adfc-832d97300c1d@phont300edcus3.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_075958.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_075958.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_075958.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9854
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IBADF73435
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 15:07:41 +0000 (UTC)
+🆔 Message-ID: <e5ffe2ef-17c3-490c-ac94-8c77ec2e2921@phont300cdcus2.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_080440.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_080440.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_080440.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9855
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IWAPJ375051
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 15:18:36 +0000 (UTC)
+🆔 Message-ID: <5af28862-87c9-4753-a6f7-bc1091ca4609@phont301ndcus1.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_081535.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_081535.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_081535.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9856
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IWAPJ375079
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 15:53:44 +0000 (UTC)
+🆔 Message-ID: <77e83038-3fe1-41a0-82be-71f49f682304@phont300edcus3.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_085043.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_085043.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_085043.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9857
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IWAPJ375080
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 15:54:36 +0000 (UTC)
+🆔 Message-ID: <501f10a5-34bb-4756-9db9-3a7872c41a99@phont301edcus4.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_085135.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_085135.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_085135.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9858
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IBADF73445
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 15:56:32 +0000 (UTC)
+🆔 Message-ID: <15665738-6900-4a36-99f7-afea2f7a85c9@phont301cdcus2.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_085331.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_085331.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_085331.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9859
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IWAPJ375082
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 15:57:16 +0000 (UTC)
+🆔 Message-ID: <29ad831d-e9e6-4357-a0b1-bb153f785a11@phont300cdcus1.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_085415.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_085415.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_085415.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9860
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IWAPJ375085
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 16:00:11 +0000 (UTC)
+🆔 Message-ID: <81a9c28c-7496-4d86-a481-84691e09d2da@phont300cdcus3.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_085710.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_085710.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_085710.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9861
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IWAPJ375086
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 16:01:25 +0000 (UTC)
+🆔 Message-ID: <dc3ae16d-e101-4a00-b2ba-905185a3dd17@phont300cdcus2.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_085823.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_085823.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_085823.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9862
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IBADF73447
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 16:02:19 +0000 (UTC)
+🆔 Message-ID: <326f796a-45fa-43bb-af28-ca3a123555eb@phont300cdcus1.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_085918.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_085918.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_085918.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9863
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IWAPJ375088
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 16:03:54 +0000 (UTC)
+🆔 Message-ID: <9c08ec3e-c043-4610-b44f-e31474f90de3@phont301ndcus2.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_090052.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_090052.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_090052.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9864
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IWAPJ375089
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 16:05:02 +0000 (UTC)
+🆔 Message-ID: <1a0a317a-9021-406d-bfda-af952e032fa7@phont301cdcus2.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_090201.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_090201.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_090201.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9865
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IBBMY125151
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 16:08:36 +0000 (UTC)
+🆔 Message-ID: <9bd080d2-b776-4d75-9f5c-9111ac218ce5@phont301cdcus2.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_090534.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_090534.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_090534.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9866
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IWAPJ375092
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 16:09:16 +0000 (UTC)
+🆔 Message-ID: <ac7cc9dc-b687-4cf5-bafe-e974e7cfb584@phont301edcus3.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_090615.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_090615.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_090615.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9867
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IBBMY125153
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 16:11:28 +0000 (UTC)
+🆔 Message-ID: <101a5904-2a2d-42f0-b5ed-9f618324fec6@phont301ndcus3.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_090827.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_090827.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_090827.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9868
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IBBMY125154
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 16:12:30 +0000 (UTC)
+🆔 Message-ID: <3dad4862-f667-47ae-b4d1-7e6911d89901@phont300ndcus4.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_090929.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_090929.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_090929.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9869
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IBAHB233311
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 16:13:47 +0000 (UTC)
+🆔 Message-ID: <aaeb468b-444b-4485-abaf-f3035bf1efc0@phont301ndcus1.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_091046.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_091046.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_091046.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9870
+   FETCH HEADERS -> OK
+📨 Asunto: Factura Electrónica. NWM9709244W4 - IBBMY125156
+✉️  De: "facturaelectronica@wal-mart.com" <facturaelectronica@wal-mart.com>
+🗓️  Fecha: Thu, 5 Feb 2026 16:15:18 +0000 (UTC)
+🆔 Message-ID: <51daeeca-e830-4128-b64a-45ff518ec0e2@phont301edcus3.homeoffice.Wal-Mart.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_091217.xml
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=SECFD_20260205_091217.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\SECFD_20260205_091217.pdf
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9871
+   FETCH HEADERS -> OK
+📨 Asunto: Comprobante Fiscal C33739
+✉️  De: "sdd@detecno.info" <sdd@detecno.info>
+🗓️  Fecha: Thu, 5 Feb 2026 16:18:29 +0000 (UTC)
+🆔 Message-ID: <64-0122ff3b-00001d91daa698c16000-000-41f09fae@tsmtpdeliver.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=mcfdi_archivo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=mcfdi_logotipo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #5: ctype=application/octet-stream cdisp=attachment fname=mcfdi_facebook.png
+   │  → No es PDF, se omite.
+   ├─ Parte #6: ctype=application/octet-stream cdisp=attachment fname=mcfdi_linkedin.png
+   │  → No es PDF, se omite.
+   ├─ Parte #7: ctype=application/octet-stream cdisp=attachment fname=mcfdi_instagram.png
+   │  → No es PDF, se omite.
+   ├─ Parte #8: ctype=application/octet-stream cdisp=attachment fname=mcfdi.png
+   │  → No es PDF, se omite.
+   ├─ Parte #9: ctype=application/pdf cdisp=attachment fname=Comprobante_FSO040603T91_C33739.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\Comprobante_FSO040603T91_C33739.pdf
+   ├─ Parte #10: ctype=application/xml cdisp=attachment fname=Comprobante_FSO040603T91_C33739.xml
+   │  → No es PDF, se omite.
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9872
+   FETCH HEADERS -> OK
+📨 Asunto: Comprobante Fiscal BABJC33740
+✉️  De: "sdd@detecno.info" <sdd@detecno.info>
+🗓️  Fecha: Thu, 5 Feb 2026 16:18:36 +0000 (UTC)
+🆔 Message-ID: <64-0122ff3b-00001d91daad6a016000-000-41f09fae@tsmtpdeliver.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=mcfdi_archivo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=mcfdi_logotipo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #5: ctype=application/octet-stream cdisp=attachment fname=mcfdi_facebook.png
+   │  → No es PDF, se omite.
+   ├─ Parte #6: ctype=application/octet-stream cdisp=attachment fname=mcfdi_linkedin.png
+   │  → No es PDF, se omite.
+   ├─ Parte #7: ctype=application/octet-stream cdisp=attachment fname=mcfdi_instagram.png
+   │  → No es PDF, se omite.
+   ├─ Parte #8: ctype=application/octet-stream cdisp=attachment fname=mcfdi.png
+   │  → No es PDF, se omite.
+   ├─ Parte #9: ctype=application/pdf cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33740.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\Comprobante_TSO991022PB6_BABJC33740.pdf
+   ├─ Parte #10: ctype=application/xml cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33740.xml
+   │  → No es PDF, se omite.
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9873
+   FETCH HEADERS -> OK
+📨 Asunto: Comprobante Fiscal BABJC33741
+✉️  De: "sdd@detecno.info" <sdd@detecno.info>
+🗓️  Fecha: Thu, 5 Feb 2026 16:19:06 +0000 (UTC)
+🆔 Message-ID: <64-0122ff3b-00001d91dacaf1816000-000-41f09fae@tsmtpdeliver.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=mcfdi_archivo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=mcfdi_logotipo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #5: ctype=application/octet-stream cdisp=attachment fname=mcfdi_facebook.png
+   │  → No es PDF, se omite.
+   ├─ Parte #6: ctype=application/octet-stream cdisp=attachment fname=mcfdi_linkedin.png
+   │  → No es PDF, se omite.
+   ├─ Parte #7: ctype=application/octet-stream cdisp=attachment fname=mcfdi_instagram.png
+   │  → No es PDF, se omite.
+   ├─ Parte #8: ctype=application/octet-stream cdisp=attachment fname=mcfdi.png
+   │  → No es PDF, se omite.
+   ├─ Parte #9: ctype=application/pdf cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33741.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\Comprobante_TSO991022PB6_BABJC33741.pdf
+   ├─ Parte #10: ctype=application/xml cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33741.xml
+   │  → No es PDF, se omite.
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9874
+   FETCH HEADERS -> OK
+📨 Asunto: Envio de Comprobante Fiscal Digital
+✉️  De: "CFD70800400410201261052@costco.com.mx" <CFD70800400410201261052@costco.com.mx>
+🗓️  Fecha: Thu, 5 Feb 2026 16:21:06 +0000 (UTC)
+🆔 Message-ID: <-1632904884.76271770308466033.JavaMail.cfdusr@SATELITE.COSTCO.COM.MX>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=multipart/related cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/pdf cdisp=attachment; filename=CFD_1_708_AIG_3187588.pdf fname=CFD_1_708_AIG_3187588.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\CFD_1_708_AIG_3187588.pdf
+   ├─ Parte #5: ctype=application/octet-stream cdisp=attachment; filename=CFD_1_708_AIG_3187588.xml fname=CFD_1_708_AIG_3187588.xml
+   │  → No es PDF, se omite.
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9875
+   FETCH HEADERS -> OK
+📨 Asunto: Comprobante Fiscal BABJC33742
+✉️  De: "sdd@detecno.info" <sdd@detecno.info>
+🗓️  Fecha: Thu, 5 Feb 2026 16:21:47 +0000 (UTC)
+🆔 Message-ID: <64-0122ff3b-00001d91db68a1c16000-000-41f09fae@tsmtpdeliver.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=mcfdi_archivo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=mcfdi_logotipo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #5: ctype=application/octet-stream cdisp=attachment fname=mcfdi_facebook.png
+   │  → No es PDF, se omite.
+   ├─ Parte #6: ctype=application/octet-stream cdisp=attachment fname=mcfdi_linkedin.png
+   │  → No es PDF, se omite.
+   ├─ Parte #7: ctype=application/octet-stream cdisp=attachment fname=mcfdi_instagram.png
+   │  → No es PDF, se omite.
+   ├─ Parte #8: ctype=application/octet-stream cdisp=attachment fname=mcfdi.png
+   │  → No es PDF, se omite.
+   ├─ Parte #9: ctype=application/pdf cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33742.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\Comprobante_TSO991022PB6_BABJC33742.pdf
+   ├─ Parte #10: ctype=application/xml cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33742.xml
+   │  → No es PDF, se omite.
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9876
+   FETCH HEADERS -> OK
+📨 Asunto: Comprobante Fiscal C33743
+✉️  De: "sdd@detecno.info" <sdd@detecno.info>
+🗓️  Fecha: Thu, 5 Feb 2026 16:23:32 +0000 (UTC)
+🆔 Message-ID: <64-0122ff3b-00001d91dbce4f416000-000-41f09fae@tsmtpdeliver.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=mcfdi_archivo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=mcfdi_logotipo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #5: ctype=application/octet-stream cdisp=attachment fname=mcfdi_facebook.png
+   │  → No es PDF, se omite.
+   ├─ Parte #6: ctype=application/octet-stream cdisp=attachment fname=mcfdi_linkedin.png
+   │  → No es PDF, se omite.
+   ├─ Parte #7: ctype=application/octet-stream cdisp=attachment fname=mcfdi_instagram.png
+   │  → No es PDF, se omite.
+   ├─ Parte #8: ctype=application/octet-stream cdisp=attachment fname=mcfdi.png
+   │  → No es PDF, se omite.
+   ├─ Parte #9: ctype=application/pdf cdisp=attachment fname=Comprobante_FSO040603T91_C33743.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\Comprobante_FSO040603T91_C33743.pdf
+   ├─ Parte #10: ctype=application/xml cdisp=attachment fname=Comprobante_FSO040603T91_C33743.xml
+   │  → No es PDF, se omite.
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9877
+   FETCH HEADERS -> OK
+📨 Asunto: Comprobante Fiscal BABJC33744
+✉️  De: "sdd@detecno.info" <sdd@detecno.info>
+🗓️  Fecha: Thu, 5 Feb 2026 16:23:37 +0000 (UTC)
+🆔 Message-ID: <64-0122ff3b-00001d91dbd391c16000-000-41f09fae@tsmtpdeliver.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=mcfdi_archivo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=mcfdi_logotipo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #5: ctype=application/octet-stream cdisp=attachment fname=mcfdi_facebook.png
+   │  → No es PDF, se omite.
+   ├─ Parte #6: ctype=application/octet-stream cdisp=attachment fname=mcfdi_linkedin.png
+   │  → No es PDF, se omite.
+   ├─ Parte #7: ctype=application/octet-stream cdisp=attachment fname=mcfdi_instagram.png
+   │  → No es PDF, se omite.
+   ├─ Parte #8: ctype=application/octet-stream cdisp=attachment fname=mcfdi.png
+   │  → No es PDF, se omite.
+   ├─ Parte #9: ctype=application/pdf cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33744.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\Comprobante_TSO991022PB6_BABJC33744.pdf
+   ├─ Parte #10: ctype=application/xml cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33744.xml
+   │  → No es PDF, se omite.
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9878
+   FETCH HEADERS -> OK
+📨 Asunto: Comprobante Fiscal C33745
+✉️  De: "sdd@detecno.info" <sdd@detecno.info>
+🗓️  Fecha: Thu, 5 Feb 2026 16:24:20 +0000 (UTC)
+🆔 Message-ID: <64-0122ff3b-00001d91dbfd5c416000-000-41f09fae@tsmtpdeliver.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=mcfdi_archivo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=mcfdi_logotipo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #5: ctype=application/octet-stream cdisp=attachment fname=mcfdi_facebook.png
+   │  → No es PDF, se omite.
+   ├─ Parte #6: ctype=application/octet-stream cdisp=attachment fname=mcfdi_linkedin.png
+   │  → No es PDF, se omite.
+   ├─ Parte #7: ctype=application/octet-stream cdisp=attachment fname=mcfdi_instagram.png
+   │  → No es PDF, se omite.
+   ├─ Parte #8: ctype=application/octet-stream cdisp=attachment fname=mcfdi.png
+   │  → No es PDF, se omite.
+   ├─ Parte #9: ctype=application/pdf cdisp=attachment fname=Comprobante_FSO040603T91_C33745.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\Comprobante_FSO040603T91_C33745.pdf
+   ├─ Parte #10: ctype=application/xml cdisp=attachment fname=Comprobante_FSO040603T91_C33745.xml
+   │  → No es PDF, se omite.
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9879
+   FETCH HEADERS -> OK
+📨 Asunto: Comprobante Fiscal BABJC33746
+✉️  De: "sdd@detecno.info" <sdd@detecno.info>
+🗓️  Fecha: Thu, 5 Feb 2026 16:24:24 +0000 (UTC)
+🆔 Message-ID: <64-0122ff3b-00001d91dc012d416000-000-41f09fae@tsmtpdeliver.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=mcfdi_archivo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=mcfdi_logotipo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #5: ctype=application/octet-stream cdisp=attachment fname=mcfdi_facebook.png
+   │  → No es PDF, se omite.
+   ├─ Parte #6: ctype=application/octet-stream cdisp=attachment fname=mcfdi_linkedin.png
+   │  → No es PDF, se omite.
+   ├─ Parte #7: ctype=application/octet-stream cdisp=attachment fname=mcfdi_instagram.png
+   │  → No es PDF, se omite.
+   ├─ Parte #8: ctype=application/octet-stream cdisp=attachment fname=mcfdi.png
+   │  → No es PDF, se omite.
+   ├─ Parte #9: ctype=application/pdf cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33746.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\Comprobante_TSO991022PB6_BABJC33746.pdf
+   ├─ Parte #10: ctype=application/xml cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33746.xml
+   │  → No es PDF, se omite.
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9880
+   FETCH HEADERS -> OK
+📨 Asunto: Comprobante Fiscal BABJC33747
+✉️  De: "sdd@detecno.info" <sdd@detecno.info>
+🗓️  Fecha: Thu, 5 Feb 2026 16:25:01 +0000 (UTC)
+🆔 Message-ID: <64-0122ff3b-00001d91dc2556416000-000-41f09fae@tsmtpdeliver.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=mcfdi_archivo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=mcfdi_logotipo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #5: ctype=application/octet-stream cdisp=attachment fname=mcfdi_facebook.png
+   │  → No es PDF, se omite.
+   ├─ Parte #6: ctype=application/octet-stream cdisp=attachment fname=mcfdi_linkedin.png
+   │  → No es PDF, se omite.
+   ├─ Parte #7: ctype=application/octet-stream cdisp=attachment fname=mcfdi_instagram.png
+   │  → No es PDF, se omite.
+   ├─ Parte #8: ctype=application/octet-stream cdisp=attachment fname=mcfdi.png
+   │  → No es PDF, se omite.
+   ├─ Parte #9: ctype=application/pdf cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33747.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\Comprobante_TSO991022PB6_BABJC33747.pdf
+   ├─ Parte #10: ctype=application/xml cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33747.xml
+   │  → No es PDF, se omite.
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9881
+   FETCH HEADERS -> OK
+📨 Asunto: Comprobante Fiscal C33748
+✉️  De: "sdd@detecno.info" <sdd@detecno.info>
+🗓️  Fecha: Thu, 5 Feb 2026 16:25:50 +0000 (UTC)
+🆔 Message-ID: <64-0122ff3b-00001d91dc555c816000-000-41f09fae@tsmtpdeliver.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=mcfdi_archivo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=mcfdi_logotipo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #5: ctype=application/octet-stream cdisp=attachment fname=mcfdi_facebook.png
+   │  → No es PDF, se omite.
+   ├─ Parte #6: ctype=application/octet-stream cdisp=attachment fname=mcfdi_linkedin.png
+   │  → No es PDF, se omite.
+   ├─ Parte #7: ctype=application/octet-stream cdisp=attachment fname=mcfdi_instagram.png
+   │  → No es PDF, se omite.
+   ├─ Parte #8: ctype=application/octet-stream cdisp=attachment fname=mcfdi.png
+   │  → No es PDF, se omite.
+   ├─ Parte #9: ctype=application/pdf cdisp=attachment fname=Comprobante_FSO040603T91_C33748.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\Comprobante_FSO040603T91_C33748.pdf
+   ├─ Parte #10: ctype=application/xml cdisp=attachment fname=Comprobante_FSO040603T91_C33748.xml
+   │  → No es PDF, se omite.
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9882
+   FETCH HEADERS -> OK
+📨 Asunto: Comprobante Fiscal BABJC33749
+✉️  De: "sdd@detecno.info" <sdd@detecno.info>
+🗓️  Fecha: Thu, 5 Feb 2026 16:25:53 +0000 (UTC)
+🆔 Message-ID: <64-0122ff3b-00001d91dc58c4016000-000-41f09fae@tsmtpdeliver.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=mcfdi_archivo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=mcfdi_logotipo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #5: ctype=application/octet-stream cdisp=attachment fname=mcfdi_facebook.png
+   │  → No es PDF, se omite.
+   ├─ Parte #6: ctype=application/octet-stream cdisp=attachment fname=mcfdi_linkedin.png
+   │  → No es PDF, se omite.
+   ├─ Parte #7: ctype=application/octet-stream cdisp=attachment fname=mcfdi_instagram.png
+   │  → No es PDF, se omite.
+   ├─ Parte #8: ctype=application/octet-stream cdisp=attachment fname=mcfdi.png
+   │  → No es PDF, se omite.
+   ├─ Parte #9: ctype=application/pdf cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33749.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\Comprobante_TSO991022PB6_BABJC33749.pdf
+   ├─ Parte #10: ctype=application/xml cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33749.xml
+   │  → No es PDF, se omite.
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9883
+   FETCH HEADERS -> OK
+📨 Asunto: Comprobante Fiscal BABJC33750
+✉️  De: "sdd@detecno.info" <sdd@detecno.info>
+🗓️  Fecha: Thu, 5 Feb 2026 16:26:34 +0000 (UTC)
+🆔 Message-ID: <64-0122ff3b-00001d91dc804a816000-000-41f09fae@tsmtpdeliver.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=mcfdi_archivo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=mcfdi_logotipo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #5: ctype=application/octet-stream cdisp=attachment fname=mcfdi_facebook.png
+   │  → No es PDF, se omite.
+   ├─ Parte #6: ctype=application/octet-stream cdisp=attachment fname=mcfdi_linkedin.png
+   │  → No es PDF, se omite.
+   ├─ Parte #7: ctype=application/octet-stream cdisp=attachment fname=mcfdi_instagram.png
+   │  → No es PDF, se omite.
+   ├─ Parte #8: ctype=application/octet-stream cdisp=attachment fname=mcfdi.png
+   │  → No es PDF, se omite.
+   ├─ Parte #9: ctype=application/pdf cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33750.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\Comprobante_TSO991022PB6_BABJC33750.pdf
+   ├─ Parte #10: ctype=application/xml cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33750.xml
+   │  → No es PDF, se omite.
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9884
+   FETCH HEADERS -> OK
+📨 Asunto: Comprobante Fiscal BABJC33751
+✉️  De: "sdd@detecno.info" <sdd@detecno.info>
+🗓️  Fecha: Thu, 5 Feb 2026 16:27:06 +0000 (UTC)
+🆔 Message-ID: <64-0122ff3b-00001d91dca002016000-000-41f09fae@tsmtpdeliver.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=mcfdi_archivo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=mcfdi_logotipo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #5: ctype=application/octet-stream cdisp=attachment fname=mcfdi_facebook.png
+   │  → No es PDF, se omite.
+   ├─ Parte #6: ctype=application/octet-stream cdisp=attachment fname=mcfdi_linkedin.png
+   │  → No es PDF, se omite.
+   ├─ Parte #7: ctype=application/octet-stream cdisp=attachment fname=mcfdi_instagram.png
+   │  → No es PDF, se omite.
+   ├─ Parte #8: ctype=application/octet-stream cdisp=attachment fname=mcfdi.png
+   │  → No es PDF, se omite.
+   ├─ Parte #9: ctype=application/pdf cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33751.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\Comprobante_TSO991022PB6_BABJC33751.pdf
+   ├─ Parte #10: ctype=application/xml cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33751.xml
+   │  → No es PDF, se omite.
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9885
+   FETCH HEADERS -> OK
+📨 Asunto: Comprobante Fiscal BABJC33752
+✉️  De: "sdd@detecno.info" <sdd@detecno.info>
+🗓️  Fecha: Thu, 5 Feb 2026 16:27:52 +0000 (UTC)
+🆔 Message-ID: <64-0122ff3b-00001d91dccc9e416000-000-41f09fae@tsmtpdeliver.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=mcfdi_archivo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=mcfdi_logotipo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #5: ctype=application/octet-stream cdisp=attachment fname=mcfdi_facebook.png
+   │  → No es PDF, se omite.
+   ├─ Parte #6: ctype=application/octet-stream cdisp=attachment fname=mcfdi_linkedin.png
+   │  → No es PDF, se omite.
+   ├─ Parte #7: ctype=application/octet-stream cdisp=attachment fname=mcfdi_instagram.png
+   │  → No es PDF, se omite.
+   ├─ Parte #8: ctype=application/octet-stream cdisp=attachment fname=mcfdi.png
+   │  → No es PDF, se omite.
+   ├─ Parte #9: ctype=application/pdf cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33752.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\Comprobante_TSO991022PB6_BABJC33752.pdf
+   ├─ Parte #10: ctype=application/xml cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33752.xml
+   │  → No es PDF, se omite.
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9886
+   FETCH HEADERS -> OK
+📨 Asunto: Comprobante Fiscal C33753
+✉️  De: "sdd@detecno.info" <sdd@detecno.info>
+🗓️  Fecha: Thu, 5 Feb 2026 16:28:33 +0000 (UTC)
+🆔 Message-ID: <64-0122ff3b-00001d91dcf4da816000-000-41f09fae@tsmtpdeliver.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=mcfdi_archivo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=mcfdi_logotipo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #5: ctype=application/octet-stream cdisp=attachment fname=mcfdi_facebook.png
+   │  → No es PDF, se omite.
+   ├─ Parte #6: ctype=application/octet-stream cdisp=attachment fname=mcfdi_linkedin.png
+   │  → No es PDF, se omite.
+   ├─ Parte #7: ctype=application/octet-stream cdisp=attachment fname=mcfdi_instagram.png
+   │  → No es PDF, se omite.
+   ├─ Parte #8: ctype=application/octet-stream cdisp=attachment fname=mcfdi.png
+   │  → No es PDF, se omite.
+   ├─ Parte #9: ctype=application/pdf cdisp=attachment fname=Comprobante_FSO040603T91_C33753.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\Comprobante_FSO040603T91_C33753.pdf
+   ├─ Parte #10: ctype=application/xml cdisp=attachment fname=Comprobante_FSO040603T91_C33753.xml
+   │  → No es PDF, se omite.
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9887
+   FETCH HEADERS -> OK
+📨 Asunto: Comprobante Fiscal BABJC33754
+✉️  De: "sdd@detecno.info" <sdd@detecno.info>
+🗓️  Fecha: Thu, 5 Feb 2026 16:28:39 +0000 (UTC)
+🆔 Message-ID: <64-0122ff3b-00001d91dcfa33816000-000-41f09fae@tsmtpdeliver.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=mcfdi_archivo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=mcfdi_logotipo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #5: ctype=application/octet-stream cdisp=attachment fname=mcfdi_facebook.png
+   │  → No es PDF, se omite.
+   ├─ Parte #6: ctype=application/octet-stream cdisp=attachment fname=mcfdi_linkedin.png
+   │  → No es PDF, se omite.
+   ├─ Parte #7: ctype=application/octet-stream cdisp=attachment fname=mcfdi_instagram.png
+   │  → No es PDF, se omite.
+   ├─ Parte #8: ctype=application/octet-stream cdisp=attachment fname=mcfdi.png
+   │  → No es PDF, se omite.
+   ├─ Parte #9: ctype=application/pdf cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33754.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\Comprobante_TSO991022PB6_BABJC33754.pdf
+   ├─ Parte #10: ctype=application/xml cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33754.xml
+   │  → No es PDF, se omite.
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9888
+   FETCH HEADERS -> OK
+📨 Asunto: Comprobante Fiscal BABJC33756
+✉️  De: "sdd@detecno.info" <sdd@detecno.info>
+🗓️  Fecha: Thu, 5 Feb 2026 16:29:53 +0000 (UTC)
+🆔 Message-ID: <64-0122ff3b-00001d91dd4264416000-000-41f09fae@tsmtpdeliver.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=mcfdi_archivo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=mcfdi_logotipo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #5: ctype=application/octet-stream cdisp=attachment fname=mcfdi_facebook.png
+   │  → No es PDF, se omite.
+   ├─ Parte #6: ctype=application/octet-stream cdisp=attachment fname=mcfdi_linkedin.png
+   │  → No es PDF, se omite.
+   ├─ Parte #7: ctype=application/octet-stream cdisp=attachment fname=mcfdi_instagram.png
+   │  → No es PDF, se omite.
+   ├─ Parte #8: ctype=application/octet-stream cdisp=attachment fname=mcfdi.png
+   │  → No es PDF, se omite.
+   ├─ Parte #9: ctype=application/pdf cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33756.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\Comprobante_TSO991022PB6_BABJC33756.pdf
+   ├─ Parte #10: ctype=application/xml cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33756.xml
+   │  → No es PDF, se omite.
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9889
+   FETCH HEADERS -> OK
+📨 Asunto: Comprobante Fiscal C33757
+✉️  De: "sdd@detecno.info" <sdd@detecno.info>
+🗓️  Fecha: Thu, 5 Feb 2026 16:30:27 +0000 (UTC)
+🆔 Message-ID: <64-0122ff3b-00001d91dd63d6416000-000-41f09fae@tsmtpdeliver.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=mcfdi_archivo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=mcfdi_logotipo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #5: ctype=application/octet-stream cdisp=attachment fname=mcfdi_facebook.png
+   │  → No es PDF, se omite.
+   ├─ Parte #6: ctype=application/octet-stream cdisp=attachment fname=mcfdi_linkedin.png
+   │  → No es PDF, se omite.
+   ├─ Parte #7: ctype=application/octet-stream cdisp=attachment fname=mcfdi_instagram.png
+   │  → No es PDF, se omite.
+   ├─ Parte #8: ctype=application/octet-stream cdisp=attachment fname=mcfdi.png
+   │  → No es PDF, se omite.
+   ├─ Parte #9: ctype=application/pdf cdisp=attachment fname=Comprobante_FSO040603T91_C33757.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\Comprobante_FSO040603T91_C33757.pdf
+   ├─ Parte #10: ctype=application/xml cdisp=attachment fname=Comprobante_FSO040603T91_C33757.xml
+   │  → No es PDF, se omite.
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9890
+   FETCH HEADERS -> OK
+📨 Asunto: Comprobante Fiscal BABJC33758
+✉️  De: "sdd@detecno.info" <sdd@detecno.info>
+🗓️  Fecha: Thu, 5 Feb 2026 16:30:31 +0000 (UTC)
+🆔 Message-ID: <64-0122ff3b-00001d91dd67f3c16000-000-41f09fae@tsmtpdeliver.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=mcfdi_archivo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=mcfdi_logotipo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #5: ctype=application/octet-stream cdisp=attachment fname=mcfdi_facebook.png
+   │  → No es PDF, se omite.
+   ├─ Parte #6: ctype=application/octet-stream cdisp=attachment fname=mcfdi_linkedin.png
+   │  → No es PDF, se omite.
+   ├─ Parte #7: ctype=application/octet-stream cdisp=attachment fname=mcfdi_instagram.png
+   │  → No es PDF, se omite.
+   ├─ Parte #8: ctype=application/octet-stream cdisp=attachment fname=mcfdi.png
+   │  → No es PDF, se omite.
+   ├─ Parte #9: ctype=application/pdf cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33758.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\Comprobante_TSO991022PB6_BABJC33758.pdf
+   ├─ Parte #10: ctype=application/xml cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33758.xml
+   │  → No es PDF, se omite.
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9891
+   FETCH HEADERS -> OK
+📨 Asunto: Comprobante Fiscal C33759
+✉️  De: "sdd@detecno.info" <sdd@detecno.info>
+🗓️  Fecha: Thu, 5 Feb 2026 16:31:10 +0000 (UTC)
+🆔 Message-ID: <64-0122ff3b-00001d91dd8df0016000-000-41f09fae@tsmtpdeliver.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=mcfdi_archivo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=mcfdi_logotipo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #5: ctype=application/octet-stream cdisp=attachment fname=mcfdi_facebook.png
+   │  → No es PDF, se omite.
+   ├─ Parte #6: ctype=application/octet-stream cdisp=attachment fname=mcfdi_linkedin.png
+   │  → No es PDF, se omite.
+   ├─ Parte #7: ctype=application/octet-stream cdisp=attachment fname=mcfdi_instagram.png
+   │  → No es PDF, se omite.
+   ├─ Parte #8: ctype=application/octet-stream cdisp=attachment fname=mcfdi.png
+   │  → No es PDF, se omite.
+   ├─ Parte #9: ctype=application/pdf cdisp=attachment fname=Comprobante_FSO040603T91_C33759.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\Comprobante_FSO040603T91_C33759.pdf
+   ├─ Parte #10: ctype=application/xml cdisp=attachment fname=Comprobante_FSO040603T91_C33759.xml
+   │  → No es PDF, se omite.
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9892
+   FETCH HEADERS -> OK
+📨 Asunto: Comprobante Fiscal BABJC33760
+✉️  De: "sdd@detecno.info" <sdd@detecno.info>
+🗓️  Fecha: Thu, 5 Feb 2026 16:31:17 +0000 (UTC)
+🆔 Message-ID: <64-0122ff3b-00001d91dd9530016000-000-41f09fae@tsmtpdeliver.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=mcfdi_archivo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=mcfdi_logotipo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #5: ctype=application/octet-stream cdisp=attachment fname=mcfdi_facebook.png
+   │  → No es PDF, se omite.
+   ├─ Parte #6: ctype=application/octet-stream cdisp=attachment fname=mcfdi_linkedin.png
+   │  → No es PDF, se omite.
+   ├─ Parte #7: ctype=application/octet-stream cdisp=attachment fname=mcfdi_instagram.png
+   │  → No es PDF, se omite.
+   ├─ Parte #8: ctype=application/octet-stream cdisp=attachment fname=mcfdi.png
+   │  → No es PDF, se omite.
+   ├─ Parte #9: ctype=application/pdf cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33760.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\Comprobante_TSO991022PB6_BABJC33760.pdf
+   ├─ Parte #10: ctype=application/xml cdisp=attachment fname=Comprobante_TSO991022PB6_BABJC33760.xml
+   │  → No es PDF, se omite.
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9893
+   FETCH HEADERS -> OK
+📨 Asunto: Comprobante Fiscal C33761
+✉️  De: "sdd@detecno.info" <sdd@detecno.info>
+🗓️  Fecha: Thu, 5 Feb 2026 16:31:49 +0000 (UTC)
+🆔 Message-ID: <64-0122ff3b-00001d91ddb46d416000-000-41f09fae@tsmtpdeliver.com>
+   FETCH BODY (robusto) -> OK
+   ├─ Parte #1: ctype=multipart/mixed cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #2: ctype=text/html cdisp=None fname=
+   │  → No es PDF, se omite.
+   ├─ Parte #3: ctype=application/octet-stream cdisp=attachment fname=mcfdi_archivo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #4: ctype=application/octet-stream cdisp=attachment fname=mcfdi_logotipo.png
+   │  → No es PDF, se omite.
+   ├─ Parte #5: ctype=application/octet-stream cdisp=attachment fname=mcfdi_facebook.png
+   │  → No es PDF, se omite.
+   ├─ Parte #6: ctype=application/octet-stream cdisp=attachment fname=mcfdi_linkedin.png
+   │  → No es PDF, se omite.
+   ├─ Parte #7: ctype=application/octet-stream cdisp=attachment fname=mcfdi_instagram.png
+   │  → No es PDF, se omite.
+   ├─ Parte #8: ctype=application/octet-stream cdisp=attachment fname=mcfdi.png
+   │  → No es PDF, se omite.
+   ├─ Parte #9: ctype=application/pdf cdisp=attachment fname=Comprobante_FSO040603T91_C33761.pdf
+   ✅ PDF guardado: C:\Users\pablo\Documents\Motor-de-correos\FACTURAS DESCARGADAS\Comprobante_FSO040603T91_C33761.pdf
+   ├─ Parte #10: ctype=application/xml cdisp=attachment fname=Comprobante_FSO040603T91_C33761.xml
+   │  → No es PDF, se omite.
+   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).
+
+════════════════════════════════════════
+➡️  Leyendo mensaje ID 9894
+   FETCH HEADERS -> OK
+📨 Asunto: Comprobante Fiscal BABJC33762

@@ -27,9 +27,10 @@ sys.stdout.reconfigure(encoding='utf-8')
 # ==========================
 # CONFIG (Yahoo)
 # ==========================
-IMAP_SERVER = "imap.mail.yahoo.com"
-EMAIL_USER  = "consorciobanco@yahoo.com"
-EMAIL_PASS  = "xddllsolnhhouiat"   
+IMAP_SERVER = "imap.gmail.com"
+EMAIL_USER  = "pablo.macias234@gmail.com"
+IMPAP_PORT   = 993
+EMAIL_PASS  = "dzkqwefrclfrfgef"   
 
 BASE_DIR = os.getcwd()
 DOWNLOAD_FOLDER = os.path.join(BASE_DIR, "FACTURAS DESCARGADAS")  

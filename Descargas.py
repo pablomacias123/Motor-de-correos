@@ -49,6 +49,9 @@ ALWAYS_MOVE_IF_DUPLICATES = False    # True = mueve también correos mixtos (nue
 
 # Solo NO LEÍDOS en INBOX
 ONLY_UNSEEN = True
+MODO_PRUEBA = True 
+MAILBOX_NAME = "PRUEBAS_BOT" if MODO_PRUEBA else "INBOX"
+
 
 # Verbosidad
 VERBOSE = True
@@ -143,7 +146,7 @@ def ensure_label_and_reselect_inbox(mail, folder_name: str):
     try:
         ok, _ = mail.select(folder_name)
         if ok == "OK":
-            mail.select("INBOX")
+            mail.select(MAILBOX_NAME)
             return
     except Exception:
         pass
@@ -237,8 +240,8 @@ def reconnect_and_select():
     print("🔄 Reconexion IMAP…")
     m = imaplib.IMAP4_SSL(IMAP_SERVER)
     m.login(EMAIL_USER, EMAIL_PASS)
-    ok, _ = m.select("INBOX")
-    print(f"   → SELECT INBOX -> {ok}")
+    ok, _ = m.select("MAILBOX_NAME")
+    print(f"   → SELECT MAILBOX_NAME -> {ok}")
     return m
 
 def ensure_connected(mail):
@@ -349,8 +352,8 @@ def main():
         mail.login(EMAIL_USER, EMAIL_PASS)
         print("✅ Login IMAP OK.")
 
-        code, _ = mail.select("INBOX")
-        print(f"📂 SELECT INBOX -> {code}")
+        code, _ = mail.select("MAILBOX_NAME")
+        print(f"📂 SELECT MAILNBOX_NAME -> {code}")
 
         # Garantiza carpetas auxiliares
         ensure_label_and_reselect_inbox(mail, DUPLICATE_FOLDER)
@@ -509,7 +512,7 @@ def main():
                     # Política de mover/flag
                     if found_any_duplicate and (ALWAYS_MOVE_IF_DUPLICATES or not saved_any_pdf):
                         print("   🔁 Hay duplicados (política de mover activa). Moviendo a DUPLICADOS…")
-                        mail.select("INBOX")
+                        mail.select("MAILBOX_NAME")  # asegurar que estamos en MAILBOX_NAME antes de mover
                         moved = move_message_from_inbox(mail, num, DUPLICATE_FOLDER, delete_from_inbox=True)
                         print(f"   → Movimiento: {'OK' if moved else 'FALLÓ'}")
                     elif found_any_duplicate and saved_any_pdf:

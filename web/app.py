@@ -111,13 +111,13 @@ def run_motor():
             STATE["last_pdf"] = os.path.basename(latest_pdf)
 
         if process.returncode == 0:
-            write_log("\n✅ Proceso finalizado correctamente.")
+            write_log(" Proceso finalizado correctamente.")
         else:
-            write_log(f"\n❌ Proceso terminó con error. Código: {process.returncode}")
+            write_log(f" Proceso terminó con error. Código: {process.returncode}")
 
     except Exception as e:
         STATE["error"] = str(e)
-        write_log(f"\n❌ ERROR INTERNO: {e}")
+        write_log(f" ERROR INTERNO: {e}")
 
     finally:
         STATE["running"] = False
@@ -159,7 +159,7 @@ def api_stop():
         except:
             process.kill()
 
-        write_log("\n⛔ Proceso detenido manualmente desde el panel.")
+        write_log(" Proceso detenido manualmente desde el panel.")
         STATE["exit_code"] = -1
         STATE["running"] = False
 
@@ -188,7 +188,7 @@ def api_shutdown():
             except:
                 process.kill()
 
-        write_log("\n🛑 Servidor Flask apagado desde el panel...")
+        write_log(" Servidor Flask apagado desde el panel...")
 
         # Apagar Flask
         os.kill(os.getpid(), signal.SIGINT)

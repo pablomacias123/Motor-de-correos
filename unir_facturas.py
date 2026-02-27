@@ -25,7 +25,7 @@ def extract_date(filename):
 # === LISTADO DE ARCHIVOS ===
 files = [p for p in IN_DIR.iterdir() if p.is_file() and p.suffix.lower() == ".pdf"]
 if not files:
-    print("⚠️  No hay archivos para unir en FACTURAS INVERTIDAS")
+    print("  No hay archivos para unir en FACTURAS INVERTIDAS")
     exit()
 
 # Orden descendente (más nueva → más vieja)
@@ -55,7 +55,7 @@ output_file = OUT_DIR / nombre_salida
 
 writer = PdfWriter()
 
-print(f"📎 Uniendo {len(files)} archivos PDF (más nueva → más vieja)...")
+print(f" Uniendo {len(files)} archivos PDF (más nueva → más vieja)...")
 
 # === UNIÓN DE PDFs ===
 for pdf_path in tqdm(files, desc="Uniendo PDFs"):
@@ -64,11 +64,11 @@ for pdf_path in tqdm(files, desc="Uniendo PDFs"):
         for page in reader.pages:
             writer.add_page(page)
     except Exception as e:
-        print(f"❌ Error al unir {pdf_path.name}: {e}")
+        print(f" Error al unir {pdf_path.name}: {e}")
         shutil.move(str(pdf_path), str(ERR_DIR / pdf_path.name))
 
 # === GUARDAR RESULTADO ===
 with output_file.open("wb") as f:
     writer.write(f)
 
-print(f"\n✅ Archivo final creado: {output_file}\n")
+print(f" Archivo final creado: {output_file}\n")

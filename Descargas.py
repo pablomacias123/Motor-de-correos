@@ -58,7 +58,7 @@ VERBOSE = True
 USE_BODYSTRUCTURE_FILTER = False
 
 # Marcas de rescate
-FLAG_IF_NO_SAVE = True               # ⭐ si no se guardó ningún PDF
+FLAG_IF_NO_SAVE = True               #  si no se guardó ningún PDF
 MOVE_IF_NO_SAVE = False              # mover a REVISA_MANUAL si no se guardó (déjalo False si solo quieres la estrella)
 
 # ==========================
@@ -106,7 +106,7 @@ def log_duplicate_row(row: list):
                 f.write("timestamp,subject,from,date,message_id,attachment,hash\n")
             f.write(",".join(['"'+c.replace('"','""')+'"' for c in row]) + "\n")
     except Exception as e:
-        vprint(f"⚠️  No pude escribir duplicates_log.csv: {e}")
+        vprint(f"  No pude escribir duplicates_log.csv: {e}")
 
 def log_seen_no_save(row: list):
     header_needed = not os.path.exists(NO_SAVE_CSV)
@@ -153,9 +153,9 @@ def ensure_label_and_reselect_inbox(mail, folder_name: str):
     try:
         res, msg = mail.create(folder_name)
         if res != "OK" and not (msg and msg[0] and b"exist" in msg[0].lower()):
-            print(f"⚠️  CREATE {folder_name} -> {res}: {msg}")
+            print(f" CREATE {folder_name} -> {res}: {msg}")
     except Exception as e:
-        print(f"⚠️  CREATE lanzó excepción (puede que ya exista): {e}")
+        print(f" CREATE lanzó excepción (puede que ya exista): {e}")
     mail.select("INBOX")
 
 def move_message_from_inbox(mail, num, dest_label: str, delete_from_inbox=True):
@@ -168,10 +168,10 @@ def move_message_from_inbox(mail, num, dest_label: str, delete_from_inbox=True):
                 mail.expunge()
             return True
         else:
-            vprint(f"❌ COPY devolvió: {res}")
+            vprint(f" COPY devolvió: {res}")
             return False
     except Exception as e:
-        vprint(f"❌ No se pudo mover {num} -> {dest_label}: {e}")
+        vprint(f" No se pudo mover {num} -> {dest_label}: {e}")
         return False
 
 def flag_message(mail, num):
@@ -179,7 +179,7 @@ def flag_message(mail, num):
         mail.store(num, '+FLAGS', r'(\Flagged)')
         return True
     except Exception as e:
-        vprint(f"❌ No se pudo poner bandera a {num}: {e}")
+        vprint(f" No se pudo poner bandera a {num}: {e}")
         return False
 
 def mark_seen_strict(mail, num, retries=3, delay=0.25):
@@ -220,11 +220,11 @@ def mark_seen_strict(mail, num, retries=3, delay=0.25):
         for _i in range(retries):
             ok, data = mail.uid('fetch', uid, '(FLAGS)')
             if ok == 'OK' and has_seen(data):
-                print("   👁️  Marcado como leído (verificado por UID).")
+                print("     Marcado como leído (verificado por UID).")
                 return True
             time.sleep(delay)
 
-    print("   ⚠️  No se pudo verificar el marcado como leído (posible retardo del servidor).")
+    print("     No se pudo verificar el marcado como leído (posible retardo del servidor).")
     return False
 
 # ===== Keepalive / reconexión =====
@@ -233,14 +233,14 @@ def safe_noop(mail):
         mail.noop()
         return True
     except Exception as e:
-        print(f"   ⚠️  NOOP falló: {e}")
+        print(f"     NOOP falló: {e}")
         return False
 
 def reconnect_and_select():
-    print("🔄 Reconexion IMAP…")
+    print(" Reconexion IMAP…")
     m = imaplib.IMAP4_SSL(IMAP_SERVER)
     m.login(EMAIL_USER, EMAIL_PASS)
-    ok, _ = m.select("MAILBOX_NAME")
+    ok, _ = m.select(MAILBOX_NAME)
     print(f"   → SELECT MAILBOX_NAME -> {ok}")
     return m
 
@@ -261,9 +261,9 @@ def fetch_body_robust(mail, num, max_retries=RETRY_FETCHES):
             status, data = mail.fetch(num, "(BODY.PEEK[])")
             if status == "OK" and data and any(isinstance(x, tuple) for x in data):
                 return "OK", data
-            print(f"   ⚠️  FETCH intento {i+1}/{max_retries} -> {status}")
+            print(f"     FETCH intento {i+1}/{max_retries} -> {status}")
         except (IMAP4.abort, IMAP4.error, socket.timeout, OSError) as e:
-            print(f"   ⚠️  FETCH excepción intento {i+1}/{max_retries}: {e}")
+            print(f"     FETCH excepción intento {i+1}/{max_retries}: {e}")
         time.sleep(RETRY_BACKOFF * (i+1))
 
     # Fallback por UID
@@ -344,40 +344,40 @@ def robust_search_unseen(mail):
 # ==========================
 def main():
     existing_hashes = load_existing_hashes()
-    print(f"🔎 Hashes precargados: {len(existing_hashes)}")
+    print(f" Hashes precargados: {len(existing_hashes)}")
 
     try:
-        print("🔌 Conectando a IMAP…")
+        print(" Conectando a IMAP…")
         mail = imaplib.IMAP4_SSL(IMAP_SERVER)
         mail.login(EMAIL_USER, EMAIL_PASS)
-        print("✅ Login IMAP OK.")
+        print(" Login IMAP OK.")
 
-        code, _ = mail.select("MAILBOX_NAME")
-        print(f"📂 SELECT MAILNBOX_NAME -> {code}")
+        code, _ = mail.select(MAILBOX_NAME)
+        print(f" SELECT MAILBOX_NAME -> {code}")
 
         # Garantiza carpetas auxiliares
         ensure_label_and_reselect_inbox(mail, DUPLICATE_FOLDER)
         ensure_label_and_reselect_inbox(mail, REVIEW_FOLDER)
-        print(f"🏷️  Carpetas garantizadas: {DUPLICATE_FOLDER}, {REVIEW_FOLDER}")
+        print(f"  Carpetas garantizadas: {DUPLICATE_FOLDER}, {REVIEW_FOLDER}")
 
         # Buscar NO LEÍDOS robusto
-        print("🔍 Buscando NO LEÍDOS en INBOX (Yahoo)…")
+        print(" Buscando NO LEÍDOS en INBOX (Yahoo)…")
         status, messages = robust_search_unseen(mail)
-        print(f"🔍 SEARCH (robusto) -> {status}")
+        print(f" SEARCH (robusto) -> {status}")
 
         if status != "OK" or not messages or not messages[0]:
-            print("❌ No hay correos NO LEÍDOS en INBOX.")
+            print(" No hay correos NO LEÍDOS en INBOX.")
             return
 
         message_numbers = messages[0].split()
-        print(f"📩 Mensajes a procesar (INBOX, UNREAD): {len(message_numbers)}")
+        print(f" Mensajes a procesar (INBOX, UNREAD): {len(message_numbers)}")
 
         processed = 0
         mail = ensure_connected(mail)  # por si algo quedó colgado
 
         for start in range(0, len(message_numbers), BATCH_SIZE):
             batch = message_numbers[start:start+BATCH_SIZE]
-            print(f"\n🧱 Lote {start+1}-{start+len(batch)} de {len(message_numbers)}")
+            print(f"\n Lote {start+1}-{start+len(batch)} de {len(message_numbers)}")
 
             for num in batch:
                 try:
@@ -386,7 +386,7 @@ def main():
                         mail = ensure_connected(mail)
 
                     print("\n════════════════════════════════════════")
-                    print(f"➡️  Leyendo mensaje ID {num.decode()}")
+                    print(f"  Leyendo mensaje ID {num.decode()}")
 
                     # Cabeceras
                     status, head_data = mail.fetch(num, '(BODY.PEEK[HEADER.FIELDS (SUBJECT FROM DATE MESSAGE-ID)])')
@@ -399,14 +399,14 @@ def main():
                             from_   = decode_maybe(hdr.get("From"))
                             date_   = decode_maybe(hdr.get("Date"))
                             msgid   = decode_maybe(hdr.get("Message-ID")) or ""
-                    print(f"📨 Asunto: {subject}")
-                    print(f"✉️  De: {from_}")
-                    print(f"🗓️  Fecha: {date_}")
-                    print(f"🆔 Message-ID: {msgid}")
+                    print(f" Asunto: {subject}")
+                    print(f"  De: {from_}")
+                    print(f"  Fecha: {date_}")
+                    print(f" Message-ID: {msgid}")
 
                     # (Opcional) BODYSTRUCTURE
                     if USE_BODYSTRUCTURE_FILTER:
-                        print(f"➡️  BODYSTRUCTURE de ID {num.decode()}…")
+                        print(f"  BODYSTRUCTURE de ID {num.decode()}…")
                         status, bs_data = mail.fetch(num, '(BODYSTRUCTURE)')
                         print(f"   FETCH BODYSTRUCTURE -> {status}")
                         bs_bytes = b""
@@ -420,7 +420,7 @@ def main():
                         bs_lower = bs_bytes.lower()
                         has_pdf = (b'application' in bs_lower and b'pdf' in bs_lower)
                         if not has_pdf:
-                            print("   ℹ️  BODYSTRUCTURE indica que NO hay PDFs. Se marca leído y se sigue.")
+                            print("     BODYSTRUCTURE indica que NO hay PDFs. Se marca leído y se sigue.")
                             mark_seen_strict(mail, num)
                             # (Opcional) log/flag de no-guardado
                             if FLAG_IF_NO_SAVE:
@@ -435,7 +435,7 @@ def main():
                     status, msg_data = fetch_body_robust(mail, num)
                     print(f"   FETCH BODY (robusto) -> {status}")
                     if status != "OK":
-                        print("   ❌ FETCH_BODY_FAILED (tras reintentos). Marcar leído y continuar.")
+                        print("    FETCH_BODY_FAILED (tras reintentos). Marcar leído y continuar.")
                         mark_seen_strict(mail, num)
                         if FLAG_IF_NO_SAVE:
                             flag_message(mail, num)
@@ -473,11 +473,11 @@ def main():
                             try:
                                 data = part.get_payload(decode=True)
                             except Exception as e:
-                                print(f"   ❌ Error al decodificar parte #{i}: {e}")
+                                print(f"    Error al decodificar parte #{i}: {e}")
                                 continue
 
                             if not data:
-                                print(f"   ⚠️  Parte #{i}: sin datos, se omite.")
+                                print(f"     Parte #{i}: sin datos, se omite.")
                                 continue
 
                             if not filename_dec:
@@ -486,7 +486,7 @@ def main():
                             h = sha256_bytes(data)
                             if h in existing_hashes:
                                 found_any_duplicate = True
-                                print("   🟡 Duplicado detectado: NO se guarda el adjunto.")
+                                print("    Duplicado detectado: NO se guarda el adjunto.")
                                 print(f"      • Adj: {filename_dec}")
                                 print(f"      • Hash: {h}")
                                 log_duplicate_row([
@@ -502,7 +502,7 @@ def main():
                                 existing_hashes.add(h)
                                 append_hash(h)
                                 saved_any_pdf = True
-                                print(f"   ✅ PDF guardado: {out_path}")
+                                print(f"    PDF guardado: {out_path}")
                             except Exception as e:
                                 print(f"   ❌ Error al guardar {filename_dec}: {e}")
 
@@ -511,8 +511,8 @@ def main():
 
                     # Política de mover/flag
                     if found_any_duplicate and (ALWAYS_MOVE_IF_DUPLICATES or not saved_any_pdf):
-                        print("   🔁 Hay duplicados (política de mover activa). Moviendo a DUPLICADOS…")
-                        mail.select("MAILBOX_NAME")  # asegurar que estamos en MAILBOX_NAME antes de mover
+                        print("    Hay duplicados (política de mover activa). Moviendo a DUPLICADOS…")
+                        mail.select(MAILBOX_NAME)  # asegurar que estamos en MAILBOX_NAME antes de mover
                         moved = move_message_from_inbox(mail, num, DUPLICATE_FOLDER, delete_from_inbox=True)
                         print(f"   → Movimiento: {'OK' if moved else 'FALLÓ'}")
                     elif found_any_duplicate and saved_any_pdf:
@@ -520,7 +520,7 @@ def main():
                         flag_message(mail, num)
 
                     if not saved_any_pdf and not found_any_duplicate:
-                        print("   ℹ️  Mensaje sin PDFs válidos.")
+                        print("     Mensaje sin PDFs válidos.")
 
                     processed += 1
 
@@ -533,7 +533,7 @@ def main():
                         mail = reconnect_and_select()
 
                 except (IMAP4.abort, IMAP4.error, socket.timeout, OSError) as e:
-                    print(f"   💥 Excepción IMAP en mensaje {num.decode()}: {e}")
+                    print(f"    Excepción IMAP en mensaje {num.decode()}: {e}")
                     # Reconnect y seguir con el siguiente
                     try:
                         mail.logout()
@@ -542,7 +542,7 @@ def main():
                     mail = reconnect_and_select()
                     continue
                 except Exception as e:
-                    print(f"   💥 Excepción no controlada en mensaje {num.decode()}: {e}")
+                    print(f"    Excepción no controlada en mensaje {num.decode()}: {e}")
                     continue
 
             # Limpieza ligera entre lotes
@@ -552,14 +552,14 @@ def main():
         print("\n🔚 Proceso finalizado.")
 
     except imaplib.IMAP4.error as e:
-        print(f"❌ Error IMAP: {e}")
+        print(f" Error IMAP: {e}")
     except Exception as e:
-        print(f"❌ Error inesperado: {e}")
+        print(f" Error inesperado: {e}")
     finally:
         try:
             mail.logout()
         except Exception:
-            print("⚠ No se pudo cerrar la sesión correctamente.")
+            print(" No se pudo cerrar la sesión correctamente.")
 
 if __name__ == "__main__":
     main()

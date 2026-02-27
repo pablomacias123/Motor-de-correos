@@ -4,6 +4,8 @@ from pypdf import PdfReader, PdfWriter
 import shutil
 from tqdm import tqdm
 import re
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
 
 # === CONFIG ===
 BASE_DIR = Path(__file__).resolve().parent
@@ -73,7 +75,7 @@ def pagina_es_basura(text):
 # === PROCESAR PDFs ===
 pdf_files = [p for p in SRC_DIR.iterdir() if p.suffix.lower() == ".pdf"]
 
-print(f"\n🧹 Analizando y limpiando {len(pdf_files)} archivos PDF...\n")
+print(f"\nAnalizando y limpiando {len(pdf_files)} archivos PDF...\n")
 
 for pdf_path in tqdm(pdf_files, desc="Limpieza Walmart"):
     total_pdfs += 1
@@ -142,7 +144,7 @@ for pdf_path in tqdm(pdf_files, desc="Limpieza Walmart"):
 
 
 # === RESUMEN ===
-print("\n📊 RESUMEN FINAL")
+print(" RESUMEN FINAL")
 print("────────────────────────────────────────────")
 print(f"Total PDFs:                    {total_pdfs}")
 print(f"Walmart detectados:            {walmart_ok}")
@@ -152,4 +154,4 @@ print(f"No se encontró TOTAL:          {no_total}")
 print(f"Errores:                       {errores}")
 print(f"No Walmart (sin tocar):        {otras}")
 print("────────────────────────────────────────────")
-print("🏁 Limpieza completa.")
+print("Limpieza completa.")

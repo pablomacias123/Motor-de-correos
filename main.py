@@ -38,40 +38,40 @@ def limpiar_contenido_carpeta(ruta: Path):
             elif item.is_dir():
                 shutil.rmtree(item)
         except Exception as e:
-            print(f"⚠️ No pude eliminar {item}: {e}")
+            print(f" No pude eliminar {item}: {e}")
 
 def limpiar_carpetas_iniciales():
-    print("🧹 Limpiando contenido de carpetas de trabajo...\n")
+    print(" Limpiando contenido de carpetas de trabajo...\n")
     for carpeta in CARPETAS_A_LIMPIAR:
         limpiar_contenido_carpeta(carpeta)
-    print("✔ Carpetas listas.\n")
+    print(" Carpetas listas.\n")
 
 
 # === FUNCIÓN PARA EJECUTAR CADA SCRIPT ===
 def run_script(script_name):
     script_path = BASE_DIR / script_name
     if not script_path.exists():
-        print(f"⚠️  No se encontró el script: {script_name}")
+        print(f"  No se encontró el script: {script_name}")
         return False
 
-    print(f"\n🚀 Ejecutando: {script_name}\n{'='*60}")
+    print(f"\n Ejecutando: {script_name}\n{'='*60}")
     start = time.time()
 
     try:
         # Ejecutar script con salida en tiempo real
         subprocess.run([sys.executable, str(script_path)], check=True)
-        print(f"✅ {script_name} completado en {round(time.time() - start, 2)}s")
+        print(f" {script_name} completado en {round(time.time() - start, 2)}s")
         print("-" * 60)
         return True
 
     except subprocess.CalledProcessError as e:
-        print(f"❌ Error en {script_name}")
-        print(f"📜 Código de salida: {e.returncode}")
+        print(f" Error en {script_name}")
+        print(f" Código de salida: {e.returncode}")
         print("-" * 60)
         return False
 
     except Exception as e:
-        print(f"⚠️  Error inesperado al ejecutar {script_name}: {e}")
+        print(f"  Error inesperado al ejecutar {script_name}: {e}")
         print("-" * 60)
         return False
 
@@ -87,9 +87,9 @@ limpiar_carpetas_iniciales()
 for script in SCRIPTS:
     ok = run_script(script)
     if not ok:
-        print(f"\n🛑 Se detiene el flujo por error en {script}. Revisa la carpeta 'errors' o la consola arriba.")
+        print(f"\n Se detiene el flujo por error en {script}. Revisa la carpeta 'errors' o la consola arriba.")
         break
 else:
-    print("\n🎉 TODOS LOS PROCESOS FINALIZADOS CORRECTAMENTE 🎉")
+    print("\n TODOS LOS PROCESOS FINALIZADOS CORRECTAMENTE 🎉")
 
-print("\n=== 🏁 FIN DEL PROCESO ===\n")
+print("\n===  FIN DEL PROCESO ===\n")

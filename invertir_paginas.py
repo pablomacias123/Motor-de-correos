@@ -18,10 +18,10 @@ for d in [SRC_DIR, OUT_DIR, ERR_DIR]:
 pdf_files = [p for p in SRC_DIR.iterdir() if p.is_file() and p.suffix.lower() == ".pdf"]
 
 if not pdf_files:
-    print("⚠️  No se encontraron PDFs en FACTURAS DESCARGADAS")
+    print("  No se encontraron PDFs en FACTURAS DESCARGADAS")
     exit()
 
-print(f"🔄 Invirtiendo {len(pdf_files)} archivos PDF...")
+print(f" Invirtiendo {len(pdf_files)} archivos PDF...")
 
 for pdf_path in tqdm(pdf_files, desc="Invirtiendo páginas"):
     try:
@@ -38,8 +38,8 @@ for pdf_path in tqdm(pdf_files, desc="Invirtiendo páginas"):
             writer.write(f)
 
     except Exception as e:
-        print(f"❌ Error en {pdf_path.name}: {e}")
+        print(f" Error en {pdf_path.name}: {e}")
         # Mover a carpeta de errores
         shutil.move(str(pdf_path), str(ERR_DIR / pdf_path.name))
 
-print("✅ Inversión completada.")
+print(" Inversión completada.")

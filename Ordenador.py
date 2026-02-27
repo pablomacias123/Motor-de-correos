@@ -91,10 +91,11 @@ def build_new_name(original: Path, dt: datetime) -> str:
 def main():
     pdfs = list(FACTURAS_DIR.glob("*.pdf"))
     if not pdfs:
-        print("⚠️ No se encontraron PDFs en la carpeta.")
+        print("ADVERTENCIA: No se encontraron PDFs en la carpeta.")
+
         return
 
-    print(f"📂 Carpeta: {FACTURAS_DIR}\n")
+    print(f"Carpeta: {FACTURAS_DIR}\n")
 
     # === BARRA DE CARGA ELEGANTE ===
     for pdf in tqdm(pdfs, desc="Ordenando facturas", unit="pdf"):
@@ -103,7 +104,7 @@ def main():
         
         if not dt:
             # Comentado para no ensuciar la barra
-            # print(f"❓ {pdf.name} -> No se detectó fecha")
+            # print(f" {pdf.name} -> No se detectó fecha")
             continue
 
         new_name = build_new_name(pdf, dt)
@@ -115,7 +116,7 @@ def main():
             i += 1
 
         pdf.rename(target)
-        # print(f"✅ {pdf.name} -> {target.name}")  <-- Ya no imprimimos línea por línea
+        # print(f" {pdf.name} -> {target.name}")  <-- Ya no imprimimos línea por línea
 
 
 if __name__ == "__main__":

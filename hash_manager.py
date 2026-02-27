@@ -19,7 +19,7 @@ def load_existing_hashes():
                 if line:
                     hashes.add(line)
     except Exception as e:
-        print(f"⚠️ No se pudo leer _hashes.db: {e}")
+        print(f" No se pudo leer _hashes.db: {e}")
 
     return hashes
 
@@ -31,7 +31,7 @@ def append_hash(h: str):
         with open(HASHES_DB, "a", encoding="utf-8") as f:
             f.write(h + "\n")
     except Exception as e:
-        print(f"⚠️ No se pudo escribir _hashes.db: {e}")
+        print(f" No se pudo escribir _hashes.db: {e}")
 
 
 # === CALCULAR HASH SHA256 DE UN ARCHIVO ===
@@ -43,6 +43,6 @@ def calculate_hash(pdf_path: Path) -> str:
             for chunk in iter(lambda: f.read(4096), b""):
                 sha256.update(chunk)
     except Exception as e:
-        print(f"⚠️ No se pudo calcular hash de {pdf_path.name}: {e}")
+        print(f" No se pudo calcular hash de {pdf_path.name}: {e}")
         return ""
     return sha256.hexdigest()

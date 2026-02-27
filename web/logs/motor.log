@@ -1,62 +1,86 @@
 ============================================
 Motor iniciado
-Hora: 2026-02-24 17:31:02
+Hora: 2026-02-26 18:33:33
 ============================================
-🔎 Hashes precargados: 8067
-🔌 Conectando a IMAP…
-✅ Login IMAP OK.
-📂 SELECT MAILNBOX_NAME -> NO
-🏷️  Carpetas garantizadas: DUPLICADOS, REVISA_MANUAL
-🔍 Buscando NO LEÍDOS en INBOX (Yahoo)…
+ Hashes precargados: 8067
+ Conectando a IMAP…
+ Login IMAP OK.
+ SELECT MAILBOX_NAME -> OK
+  Carpetas garantizadas: DUPLICADOS, REVISA_MANUAL
+ Buscando NO LEÍDOS en INBOX (Yahoo)…
    ↪ SEARCH UNSEEN -> OK
-🔍 SEARCH (robusto) -> OK
-❌ No hay correos NO LEÍDOS en INBOX.
-🔎 Hashes precargados: 8067
-🔌 Conectando a IMAP…
-✅ Login IMAP OK.
-📂 SELECT MAILNBOX_NAME -> NO
-🏷️  Carpetas garantizadas: DUPLICADOS, REVISA_MANUAL
-🔍 Buscando NO LEÍDOS en INBOX (Yahoo)…
+ SEARCH (robusto) -> OK
+ No hay correos NO LEÍDOS en INBOX.
+ Hashes precargados: 8067
+ Conectando a IMAP…
+ Login IMAP OK.
+ SELECT MAILBOX_NAME -> OK
+  Carpetas garantizadas: DUPLICADOS, REVISA_MANUAL
+ Buscando NO LEÍDOS en INBOX (Yahoo)…
    ↪ SEARCH UNSEEN -> OK
-🔍 SEARCH (robusto) -> OK
-❌ No hay correos NO LEÍDOS en INBOX.
-Traceback (most recent call last):
-  File "C:\Users\pablo\Documents\Motor-de-correos\limpiar_facturas.py", line 76, in <module>
-    print(f"\n\U0001f9f9 Analizando y limpiando {len(pdf_files)} archivos PDF...\n")
-    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\pablo\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
-    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
-           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f9f9' in position 2: character maps to <undefined>
+ SEARCH (robusto) -> OK
+ No hay correos NO LEÍDOS en INBOX.
+
+Analizando y limpiando 0 archivos PDF...
+
+
+Limpieza Walmart: 0it [00:00, ?it/s]
+Limpieza Walmart: 0it [00:00, ?it/s]
+ RESUMEN FINAL
+────────────────────────────────────────────
+Total PDFs:                    0
+Walmart detectados:            0
+Recortados:                    0
+Sin cambios:                   0
+No se encontró TOTAL:          0
+Errores:                       0
+No Walmart (sin tocar):        0
+────────────────────────────────────────────
+Limpieza completa.
+ADVERTENCIA: No se encontraron PDFs en la carpeta.
+  No se encontraron PDFs en FACTURAS DESCARGADAS
+  No hay archivos para unir en FACTURAS INVERTIDAS
 
 === 🧩 INICIO DEL PROCESO COMPLETO ===
 
-🧹 Limpiando contenido de carpetas de trabajo...
+ Limpiando contenido de carpetas de trabajo...
 
-✔ Carpetas listas.
+ Carpetas listas.
 
 
-🚀 Ejecutando: Descargas.py
+ Ejecutando: Descargas.py
 ============================================================
-✅ Descargas.py completado en 1.37s
+ Descargas.py completado en 1.29s
 ------------------------------------------------------------
 
-🚀 Ejecutando: Descargas.py
+ Ejecutando: Descargas.py
 ============================================================
-✅ Descargas.py completado en 1.19s
+ Descargas.py completado en 1.2s
 ------------------------------------------------------------
 
-🚀 Ejecutando: limpiar_facturas.py
+ Ejecutando: limpiar_facturas.py
 ============================================================
-❌ Error en limpiar_facturas.py
-📜 Código de salida: 1
+ limpiar_facturas.py completado en 0.84s
 ------------------------------------------------------------
 
-🛑 Se detiene el flujo por error en limpiar_facturas.py. Revisa la carpeta 'errors' o la consola arriba.
+ Ejecutando: Ordenador.py
+============================================================
+ Ordenador.py completado en 0.87s
+------------------------------------------------------------
 
-=== 🏁 FIN DEL PROCESO ===
+ Ejecutando: invertir_paginas.py
+============================================================
+ invertir_paginas.py completado en 0.67s
+------------------------------------------------------------
 
+ Ejecutando: unir_facturas.py
+============================================================
+ unir_facturas.py completado en 0.71s
+------------------------------------------------------------
 
-✅ Proceso finalizado correctamente.
+ TODOS LOS PROCESOS FINALIZADOS CORRECTAMENTE 🎉
 
-🛑 Servidor Flask apagado desde el panel...
+===  FIN DEL PROCESO ===
+
+ Proceso finalizado correctamente.
+ Servidor Flask apagado desde el panel...

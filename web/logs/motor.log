@@ -1,6 +1,6 @@
 ============================================
 Motor iniciado
-Hora: 2026-02-26 18:33:33
+Hora: 2026-03-06 15:35:44
 ============================================
  Hashes precargados: 8067
  Conectando a IMAP…
@@ -50,32 +50,32 @@ ADVERTENCIA: No se encontraron PDFs en la carpeta.
 
  Ejecutando: Descargas.py
 ============================================================
- Descargas.py completado en 1.29s
+ Descargas.py completado en 4.06s
 ------------------------------------------------------------
 
  Ejecutando: Descargas.py
 ============================================================
- Descargas.py completado en 1.2s
+ Descargas.py completado en 4.64s
 ------------------------------------------------------------
 
  Ejecutando: limpiar_facturas.py
 ============================================================
- limpiar_facturas.py completado en 0.84s
+ limpiar_facturas.py completado en 4.96s
 ------------------------------------------------------------
 
  Ejecutando: Ordenador.py
 ============================================================
- Ordenador.py completado en 0.87s
+ Ordenador.py completado en 1.37s
 ------------------------------------------------------------
 
  Ejecutando: invertir_paginas.py
 ============================================================
- invertir_paginas.py completado en 0.67s
+ invertir_paginas.py completado en 1.05s
 ------------------------------------------------------------
 
  Ejecutando: unir_facturas.py
 ============================================================
- unir_facturas.py completado en 0.71s
+ unir_facturas.py completado en 1.07s
 ------------------------------------------------------------
 
  TODOS LOS PROCESOS FINALIZADOS CORRECTAMENTE 🎉
